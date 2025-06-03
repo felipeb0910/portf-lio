@@ -5,39 +5,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/foto de perfil.jpeg" alt="avatar do Felipe" class="rounded-circle" width="150" height="150" srcset="">
+        <img src="img/foto de perfil.jpeg" alt="avatar do Felipe" class="rounded-circle" width="150" height="150"
+            srcset="">
         <p class="lead">Eu sou Felipe</p>
         <h1>Eu pratico esportes</h1>
         <p>Apaixonado por esportes, principalmente futebol. Joguei nas categorias de base de alguns clubes e agora quero seguir carreira como jornalista esportivo. Pretendo estudar jornalismo na UEL ou na USP.</p>
         <p>Minhas habilidades</p>
         <div>
             <p class="badge bg-secondary">Comunicativo</p>
-            <p class="badge bg-secondary">Focado</p>
             <p class="badge bg-secondary">Responsável</p>
+            <p class="badge bg-secondary">Focado</p>
         </div>
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Sobre mim</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="img/academia.jpeg" class="card-img-top" alt="Imagem da academia">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Academia: Minha Jornada Fitness</h5>
+                        <p class="card-text">A academia é um espaço dedicado à prática de atividades físicas, oferecendo equipamentos e modalidades como musculação, cardio, yoga e pilates. O ambiente é ideal para quem busca melhorar a saúde, o condicionamento físico e o bem-estar.
+
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Saiba mais
+                            </button>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/futebol.jpeg" class="card-img-top" alt="Imagem do futebol">
+                    <div class="card-body">
+                        <h5 class="card-title">Futebol: Categoria de base
+                            </h5>
+                        <p class="card-text">O futebol é um esporte coletivo que envolve duas equipes com 11 jogadores, que competem para marcar gols em um campo retangular. É uma das modalidades mais populares do mundo, promovendo trabalho em equipe, habilidades técnicas e condicionamento físico.
+</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Saiba mais
+                            </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/alimentação.jpeg" class="card-img-top" alt="Imagem da alimentação">
+                    <div class="card-body">
+                        <h5 class="card-title">Alimentação: Minha Dieta 
+                        </h5>
+                        <p class="card-text">A alimentação e a dieta são essenciais para manter a saúde e o bem-estar, ajudando a equilibrar nutrientes, vitaminas e minerais necessários para o corpo. Uma alimentação adequada pode melhorar o desempenho físico, prevenir doenças e controlar o peso, enquanto a dieta deve ser adaptada às necessidades individuais.
+
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Saiba mais
+                            </button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Academia: Minha Jornada Fitness</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A academia é um ambiente dedicado à prática de atividades físicas, com foco na melhoria da saúde e do condicionamento físico. Ela oferece uma variedade de equipamentos, como pesos livres e máquinas, além de áreas para exercícios cardiovasculares, como esteiras e bicicletas. O local é ideal para quem busca emagrecimento, aumento de força ou resistência, sempre com o apoio de profissionais qualificados.</p>
+                    <p>Os treinos de musculação visam o desenvolvimento de força e o aumento da massa muscular. Com exercícios que isolam grupos musculares ou trabalham vários músculos ao mesmo tempo, os treinos são adaptados de acordo com o nível do praticante, seja iniciante ou avançado. Além disso, ajudam na prevenção de lesões, melhorando a postura e a estabilidade do corpo.</p>
+                    <p>Além da musculação, as academias oferecem atividades cardiovasculares, como corridas, ciclismo indoor e aulas de dança. Esses exercícios melhoram a saúde do coração, aumentam a resistência e ajudam na queima de calorias. A variedade de opções permite que cada pessoa escolha o treino que melhor atenda às suas necessidades e gostos.</p>
+                    <p>Praticar exercícios na academia também traz benefícios para o bem-estar mental. Além de melhorar o humor e reduzir o estresse, o exercício físico ajuda a combater a ansiedade e a depressão. A disciplina para seguir um treino regular também contribui para o aumento da autoestima e confiança.</p>
+                    <img src="img/academia.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa da academia">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://wa.me/5514998413501">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O futebol é um dos esportes mais populares do mundo, praticado por milhões de pessoas em diversos países. Ele é jogado entre duas equipes de onze jogadores, com o objetivo de marcar mais gols que o adversário. A principal característica do jogo é a utilização dos pés para controlar e passar a bola, embora os goleiros usem as mãos para defender a meta.
+                    </p>
+                    <p>O jogo ocorre em um campo retangular com uma bola esférica, e os jogadores precisam ter habilidades como drible, passe, chute e posicionamento estratégico. Além disso, a parte tática do futebol é essencial, pois envolve movimentos coordenados entre os jogadores para criar oportunidades de gol e defender a equipe adversária.</p>
+                    <p>O futebol também é um esporte coletivo, o que significa que a comunicação e o trabalho em equipe são fundamentais para o sucesso. Cada posição tem uma função específica, desde o goleiro, que defende a baliza, até o atacante, que busca marcar gols. A integração entre os jogadores e a estratégia do técnico são decisivas para o desempenho da equipe.</p>
+                    <p>Além dos benefícios físicos, como o aumento da resistência e agilidade, o futebol desenvolve habilidades mentais, como a tomada de decisão rápida e o controle emocional. É um esporte que promove a interação social, a competitividade saudável e o espírito de equipe, sendo também uma excelente maneira de entreter e unir pessoas de diferentes culturas.
+                    </p>
+                    <img src="img/futebol.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do futebol">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://wa.me/5514998413501">Ver mais
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A alimentação é essencial para garantir que o corpo receba os nutrientes necessários para funcionar corretamente. Uma dieta balanceada deve incluir alimentos variados, como frutas, vegetais, proteínas, carboidratos e gorduras saudáveis, para proporcionar energia e manter a saúde em dia. Cada grupo alimentar desempenha um papel importante, desde a construção muscular até a proteção do sistema imunológico.</p>
+                    <p>Dietas podem ser adaptadas de acordo com os objetivos individuais, como emagrecimento, ganho de massa muscular ou simplesmente a manutenção de um estilo de vida saudável. No entanto, é importante evitar dietas restritivas e focar em hábitos alimentares equilibrados, consumindo alimentos frescos e naturais. A hidratação também é fundamental, já que a água é essencial para o funcionamento adequado do corpo.</p>
+                    <p>Além dos benefícios físicos, uma alimentação adequada também afeta o bem-estar mental. Comer de forma saudável pode melhorar o humor, aumentar a concentração e ajudar a controlar o estresse. O segredo está em escolher alimentos nutritivos e manter consistência nos hábitos alimentares para alcançar e manter os objetivos de saúde.</p>
+                    <img src="img/alimentação.jpeg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://wa.me/5514998413501">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class=""></i>
+            <a href="https://wa.me/5514998413501">Whatsapp</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Felipe Barbosa</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
